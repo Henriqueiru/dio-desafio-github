@@ -1,0 +1,15 @@
+C:\Users\Usuário\Desktop\debugdotnet\bin\Release\net7.0\debugdotnet.exe
+C:\Users\Usuário\Desktop\debugdotnet\bin\Release\net7.0\debugdotnet.deps.json
+C:\Users\Usuário\Desktop\debugdotnet\bin\Release\net7.0\debugdotnet.runtimeconfig.json
+C:\Users\Usuário\Desktop\debugdotnet\bin\Release\net7.0\debugdotnet.dll
+C:\Users\Usuário\Desktop\debugdotnet\bin\Release\net7.0\debugdotnet.pdb
+C:\Users\Usuário\Desktop\debugdotnet\obj\Release\net7.0\debugdotnet.csproj.AssemblyReference.cache
+C:\Users\Usuário\Desktop\debugdotnet\obj\Release\net7.0\debugdotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuário\Desktop\debugdotnet\obj\Release\net7.0\debugdotnet.AssemblyInfoInputs.cache
+C:\Users\Usuário\Desktop\debugdotnet\obj\Release\net7.0\debugdotnet.AssemblyInfo.cs
+C:\Users\Usuário\Desktop\debugdotnet\obj\Release\net7.0\debugdotnet.csproj.CoreCompileInputs.cache
+C:\Users\Usuário\Desktop\debugdotnet\obj\Release\net7.0\debugdotnet.dll
+C:\Users\Usuário\Desktop\debugdotnet\obj\Release\net7.0\refint\debugdotnet.dll
+C:\Users\Usuário\Desktop\debugdotnet\obj\Release\net7.0\debugdotnet.pdb
+C:\Users\Usuário\Desktop\debugdotnet\obj\Release\net7.0\debugdotnet.genruntimeconfig.cache
+C:\Users\Usuário\Desktop\debugdotnet\obj\Release\net7.0\ref\debugdotnet.dll

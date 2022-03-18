@@ -1,0 +1,2 @@
+Posso adicionar um ponto de interrupção e debugar um arquivo .cs para entender onde esta o erro de codigo, sintaxy e etc.
+Com o ponto de interrupção posso ver em variables/locals como as variaveis se comportam e em watch posso ver exatamente o valor da variavel
