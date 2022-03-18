@@ -1,0 +1,6 @@
+git init + email - Serve para iniciar o repositorio local com git
+git add + nome de um documento ou arquivo - Serve para adicionar alterações de um arquivo ou um arquivo novo ao repositorio git
+git commit -m "" - Serve para comentar sobre as alterações feitas ou arquivos adicionados
+git status - serve para ver o status de todo repositorio, mostrando qual teve alteração, qual teve conflitos e qual deve ser commitado
+git add * - serve para adicionar alterações de tudo de uma vez deste repositorio local
+git push + repositorio cliado com ou sem ssh - Serve para enviar todo repositorio local para o repositorio remoto do github
