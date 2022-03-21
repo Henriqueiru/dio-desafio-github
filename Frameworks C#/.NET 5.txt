@@ -1,0 +1,3 @@
+Unificação dos Frameworks
+.NET Core chegou ao .NET Framework em nivel de conteudo
+Nao faz mais sentido ter dois frameworks

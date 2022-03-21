@@ -1,0 +1,8 @@
+Linguagem compilada tem o tempo de compilação, ou seja, os erros sao mais faceis de serem detectados e de forma mais rapida.
+Na linguagem interpretada os erros são apenas detectados no tempo de execução, um exemplo é o javascript que é interpretado pelo browser e a programação apartir dele funciona desta forma.
+Tamanho das aplicações compiladas costumam a ser menores. Pois a compilação costuma a transformar as instruções em linguagem de maquina para otimização da aplicação.
+As aplicações compiladas consequentemente tem maior otimização de execução.
+Enquanto uma linguagem compilada precisa de um compilador para transformar a linguagem em uma linguagem de baixo nivel e melhor interpretada pelo computador.
+Em uma linguagem interpretada isso nao acontece pois ela nao precisa de compilador e ja é interpretada pelo proprio browser.
+
+Interpretada é como se tivesse um interprete, não é perfeitamente traduzido e pronto para a linguagem de maquina, então a linguagem interpretada tem um tempinho para interpretar.

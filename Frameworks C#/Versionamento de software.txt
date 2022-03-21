@@ -1,0 +1,5 @@
+Versão semantica é dividida em fases
+Fases:
+	Alpha, Beta, Release Candidate, Final
+Dividida em tres partes
+	Major, Minor, Patch

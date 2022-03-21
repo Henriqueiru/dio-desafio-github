@@ -1,0 +1,5 @@
+É uma estrutura, um alicerce
+	- Um conjunto de bibliotecas
+Usamos como base para construir nossas aplicações
+	- Para nao precisar fazer tudo, começar do zero
+Conceito existente em diversas tecnologias.

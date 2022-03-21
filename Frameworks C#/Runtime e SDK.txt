@@ -1,0 +1,4 @@
+Runtime é necessario para executar aplicações
+Nao é necessario um item para compilar, apenas a dll para executar
+SDK vem com o runtime integrado, ele permite que desenvolvamos software com C#, ASP.NET core e assim por diante
+SDK é software development kit

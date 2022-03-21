@@ -1,0 +1,12 @@
+Linguagem tipada, compilada
+Linguagem gerenciada:
+Significa que a execução depende de um gerenciador
+no caso o gerenciador é conhecido como Runtime
+No caso do C# este Runtime se chama CLR (Common Language Runtime) ou CLR Runtime
+Gerencia memória, segurança, entre outros recursos basicos.
+
+Em C/C++ alocação de momoria é feita manualmente. Em C# não
+A famosa tela azul d Windows acontece quando algum programa tenta acessar algum local da memoria que estava reservado para o sistema.
+Com o gerenciador a gente não vai precisar fazer essa alocação de memoria na mao. A gente interage menos com o recurso de maquina e perde menos tempo.
+Ai a gente foca mais no business do negocio e menos na questão de maquina.
+

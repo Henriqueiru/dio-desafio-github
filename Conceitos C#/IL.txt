@@ -1,0 +1,12 @@
+Intermediate Language
+Embora as compilações sejam diferentes
+	- O gerenciamento é igual
+ 	- Alocação de memória
+	- Execução de instruções no processador
+O CLR recebe um código e compila ele para IL
+	- C#, VB.NET, F#, Cobol.NET
+Podemos ter arquivos C# e VB.NET no mesmo projeto
+	- Nunca no mesmo arquivo
+O resultado da compilação do IL é sempre o mesmo
+
+O processo de conversão do IL para binario é conhecido como Just in Time (JIT)

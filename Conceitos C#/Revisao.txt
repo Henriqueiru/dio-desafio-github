@@ -1,0 +1,5 @@
+C# é maduro, completo, popular e tem muito material
+É uma linguagem desafiadora mas que vai te dar uma ótima bagagem
+O C# é compilado inicialmente para IL, de alto nivel, gerenciado
+Depois o CLR compila para o código de maquina, executa e gerencia
+IL é a linguagem intermediária na qual todas as linguagens da Microsoft são compiladas. Depois é compilado para a linguagem binaria.

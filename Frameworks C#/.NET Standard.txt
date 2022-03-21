@@ -1,0 +1,8 @@
+.NET Framework e .NET Core coexistem
+	Podem ser instalados juntos
+	Podem ser utilizados no mesmo projeto
+Como garantir que algo que escrevemos roda em ambos?
+Isso é feito com .NET Standard, que garante que tudo que estamos escrevendo há uma intersecção entre o sistema legado e o sistema novo
+Não é um framework, é apenas um contrato
+	Chamamos de Surface API
+Garante que tudo que escrevemos será compativel com ambos.

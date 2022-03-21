@@ -1,0 +1,7 @@
+Frameworks são estruturas prontas
+.NET Framework é o legado
+.NET Core é o atual
+.NET 5 é o futuro
+.NET Standard é a padronização, é um surfice API, garante que tudo que se escreve seja compativel com outros frameworks
+Optar sempre por versões LTS
+Runtime executa, SDK cria nossas aplicações .NET

@@ -1,0 +1,11 @@
+Ele é uma linguagem de programação tipada, compilada e gerenciada
+Foi criada por Anders Hejlsberg em meados de 2001
+Principal linguagem da Microsoft
+Vantagens:
+Linguagem completa: Ele faz parte de um ecossistema, ou seja, ele serve para criar varios tipos de softwares.
+Maturidade: Ele tem um bom tempo no mercado e resolve muitos problemas que em programações mais novas voce as vezes nao encontra.
+Mercado: É um mercado sempre em expansão. Ele é um mercado mais forte em grandes empresas, empresas de grande porte.
+Comunidade: Comunidade é bem grande em C#
+Aplicabilidade: C# tem aplicabilidade em varios tipos de plataforma, tanto mobile como desktop e web. É bem amplo.
+Microsoft por trás: 
+Orientação à Objetos: É uma linguagem orientada a objetos

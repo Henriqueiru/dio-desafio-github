@@ -1,0 +1,17 @@
+A ideia é trazer recursos comuns ja prontos
+	Itens do dia-a-dia
+	Escrita de arquivo em disco por exemplo
+		Acesso à dados
+	Validados e testados
+	Nos poupam muito tempo
+	Não vale a pena começar sem um
+
+.NET
+C# é a linguagem
+O framework se chama .NET
+Teve sua primeira versão em meados de 2001
+	Chamado de .NET Framework
+Recebeu as versoes 1.0, 1.1, 2.0, 3.0, 3.5, 4.x (Atualmente)
+Pode ser instalado Side-by-Side, voce pode ter uma versão do lado da outra.
+Compativel somente com Windows
+Considerado legado = Softwares com um pouco mais de idade

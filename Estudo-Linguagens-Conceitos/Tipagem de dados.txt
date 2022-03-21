@@ -1,0 +1,10 @@
+Obrigam a especificar o tipo de dado da informação
+Essas linguagens tipadas tem uma liberdade menor, porem maior otimização.
+Porque ele ja sabe na onde na memoria ele ja pode armazenar essa informação.
+Ja cria uma alocação e desalocação na memoria.
+Tipo de dado define o formato daquela informação.
+Variavel é uma informação que a gente declara que ela pode ser alterada posteriormente.
+Constante depois de uma vez declarada nao pode ser alterada.
+
+Por exemplo no C#
+tipos int, float, double e etc, cada um deles tem uma variação especifica de alocação, isso atende mais rapido requisições e com performances maiores

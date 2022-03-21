@@ -1,0 +1,8 @@
+A Microsoft possui outras linguagens como VB.NET, F# e até Cobol.NET
+Todas elas precisam ser mantidas
+O ecossistema da microsoft criou compiladores separados
+	Um para cada linguagem (Ou mais de uma linguagem)
+
+A compilação inicial gera um codigo intermediário
+	Intermediate Language (IL)
+Basicamente quando compila o codigo C#, ele é traduzido por uma linguagem intermediaria depois ele é compilado, isso acontece com .NET e entre outras linguagens da Microsoft

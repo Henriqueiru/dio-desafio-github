@@ -1,0 +1,12 @@
+Versão moderna do .NET Framework
+Lançado em meados de 2015
+Veio para suportar outros Sistemas operacionais como MAC e Linux
+Suas primeiras versões continham apenas o basico
+	Core significa nucleo, ou seja, o essencial
+	Mudar um framework usado por milhões não é facil
+	Foi totalmente reescrito
+	Ainda assim com ótima retro compatibilidade
+Versao 3.1 está bem estável
+Recomandação atual da Microsoft
+Versões 1.0, 1.1, 2.0, 2.1, 3.0, 3.1
+Instalação Side-by-Side

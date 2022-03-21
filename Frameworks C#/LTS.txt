@@ -1,0 +1,3 @@
+A cada 6 meses há mudanças no framework, com releases, nao tem quebra de codigo e etc.
+.NET 5 tem lançamentos anuais
+A sigla LTS significa Long Term Support
