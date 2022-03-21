@@ -1,0 +1,14 @@
+Sigla para Command Line Interface
+	Interface de linha de comando
+	Comandos adicionados ao nosso terminal
+Ele é definido pelo comando dotnet
+	dotnet --version
+		Verifica a versão atual
+	dotnet --list-sdks
+		Lista os SDKs instalados
+	dotnet --list-runtimes
+		Lista os Runtimes instalados
+	dotnet help
+		Exibe a ajuda
+		Lista de comandos disponiveis
+

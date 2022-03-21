@@ -1,0 +1,29 @@
+Definições
+Do tipo Class Library
+	O resultado final é uma DLL
+	Não possui interface
+Console Application
+	O resultado final é uma aplicação que roda no terminal
+	Pode receber dados, esperar input do usuário
+Projeto Web
+	-ASP.NET WEB
+	-ASP.NET MVC
+	-ASP.NET WEBAPI
+Projeto testes
+	-Microsoft Tests
+
+dotnet cli
+
+Comandos:
+	dotnet new console = Novo Console Application
+	dotnet new classlib = Nova Class Library
+	dotnet new web = Novo projeto ASP.NET Core
+	dotnet new mvc = Novo projeto ASP.NET Core
+	dotnet new webapi = Novo projeto ASP.NET Core
+	dotnet new mstest = Novo projeto Microsoft Test
+
+Criar um projto é o mesmo que gerar os arquivos iniciais de uma aplicação
+Vai sempre gerar os arquivos na pasta atual
+Para especificar uma pasta, podemos utilizar o "-o"
+	dotnet new console -o MeuApp
+	Vai criar umanova pasta chamada MeuApp com os arquivos dentro

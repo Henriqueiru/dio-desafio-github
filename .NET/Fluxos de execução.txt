@@ -1,0 +1,3 @@
+dotnet clean é bom para limpar
+dotnet build para compilar e ver erros
+dotnet run para executar 
