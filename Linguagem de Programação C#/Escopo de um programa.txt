@@ -1,0 +1,9 @@
+Primeiro tem as importações: sempre definidas pelo using
+Exemplo: Importação de modulos para acesso ao banco de dados
+Namespace: Separações logicas
+Classe: Programa em si, tudo que vai ser executado no programa
+Método principal: Nosso metodo principal da aplicação
+
+No program.cs por exemplo, Busca o program.cs, le a classe program, e le a classe main
+
+

@@ -1,0 +1,15 @@
+Tipo Byte é utilizado para representar um byte de fato, é um tipo primitivo
+Em diversos casos precisamos da cadeia de bytes de um arquivo por exemplo
+	Tambem chamado de byte array
+Temos também o sbyte que permite valores negativos
+Signes e Usigned
+Valores com sinal como "-" por exemplo, são chamados de signed
+
+No caso do byte
+byte (8 bit)
+	0 até 255
+sbyte(8bit)
+-128 até 127
+
+Note que o sbyte permite valores negativos, por isto no nome sbyte, que significa Signed Byte
+

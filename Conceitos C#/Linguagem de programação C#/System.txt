@@ -1,0 +1,5 @@
+No .NET tudo começa de um tipo base chamado system
+Todo e qualquer tipo, seja built-in ou complexo deriva dele
+Ele é a base de todos os objetos no .NET
+Nao precisamos nos preocupar em usalo ou qualquer coisa similar
+seu uso já é implicito

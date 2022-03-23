@@ -1,0 +1,7 @@
+Quando executamos dotnet run estamos no modo realese da nossa aplicação, como se fossemos o cliente acessando a aplicação
+Em alguns casos queremos utilizar o Debug para rodar a aplicação, esse debug serve para encontrar bugs.
+No VSCODE podemos abrir qualquer program.cs e usar um breakpoint, ponto de interrupção
+Podemos ir no modo debug em Run no VSCODE
+Ele para a execução do programa na linha onde tem o breakpoint, temos as opções de:
+Continuar, passar por cima da execução, so pegaria o resultado da execução
+Isso tudo é feito com a pasta vscode

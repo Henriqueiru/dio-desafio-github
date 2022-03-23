@@ -1,0 +1,23 @@
+Constantes - Definições:
+Também utilizamos uma constante para armazenar uma informação
+As constantes NÃO PODEM ser alteradas
+Uma vez criadas somos obrigados a atribuir um valor
+Feito isto elas nao poderão ser modificadas novamente
+Não funcionam com a utilização de var
+São mais otimizadas que as variáveis
+Recomendadas para usos frequentes
+
+A definição de constante é dada pela palavra reservada const antes do tipo
+Caso não seja informado um valor o valor padrão sera atribuido
+Exemplo:
+
+const int IDADE_MINIMA; // Correto inicia com ZERO
+const int IDADE_MINIMA = 25; // Correto inicia com 25
+const var IDADE_MINIMA = 25; // Errado, pois consts não podem variar
+const var IDADE MINIMA; // Errado
+
+Utilizar sempre nomes coesos
+Nao utilizar caracteres especiais ou espaços
+Nao comece com numeros
+É comum ver constantes todas em maiusculas, separadas por _ mas não é regra
+A ideia é bater o olho no código e saber que aquilo é uma constante

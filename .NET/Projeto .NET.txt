@@ -1,0 +1,11 @@
+Sobre a estrutura de um projeto
+
+O resultado do build fica na pasta bin, de binario, esquece essa pagina
+MeuApp.csproj Ele nada mais é do q um arquivo xml, que é uma linguagem de marcação
+Primeira linha é chamada project sdk mostra qual sdk estamos usando
+Depois property group
+so define uma sessão, um grupo dentro de um projeto
+	Tem uma propriedade dentro desse grupo, em saida, outputtype, que geralmente é um exe
+	TargetFramework se refere a qual framework a aplicação esta se baseando
+Program.cs o dotnet run busca sempre ele. 
+Pasta obj usada para tempo de debug da aplicação, procurar algum erro, bug e coisas do tipo.

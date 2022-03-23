@@ -1,0 +1,15 @@
+Numeros inteiros, ou seja, sem pontuação, podem ser definidos pelos tipos
+	short/ushort
+	int/uint
+	long/ulong
+Assim como temos o signed nos bytes, nos numeros por padrao sao permitidos valores negativos
+Entao usamos o unsigned para definir que o mesmo nao pode receber valores negativos
+o tipo int é o mais comum de ser encontrado
+
+Definições
+Short ocupa 16 bits
+ushort ocupa 16bits mas nao começa com negativo
+int ocupa 32 bits numeros positivos e negativos
+uint ocupa so numeros positivos, maior opção de numeros 
+long ocupa 64 bits ocupa negativos e positivos
+ulong 64 bits ocupa so postivios

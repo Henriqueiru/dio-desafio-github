@@ -1,0 +1,20 @@
+Utilizamos para armazenar uma informação
+Ser variavel significa que seu valor pode ser alterado a qualquer momento
+Ou seja, ele pode variar
+Sempre que criamos uma variavel dizemos que estamos inicializando ela
+Instanciar uma variavel seria criar uma variavel por exemplo
+As variaveis são definidas por um tipo ou palavra reservada var. Nao pode ter uma variavel chamada var, ou int por exemplo
+O tipo sempre vem primeiro
+Exemplo: int idade; //Correto inicia com ZERO
+	int idade = 25; // Correto inicia com 25
+	var idade = 25; // Correto inicia com 25
+	var idade; //Errado
+
+Podemos informar um valor ja na criação da variavel
+Se não informado o valor padrão será aplicado
+No C# o tipo vem sempre antes do nome da variavel
+
+Utilize nomes coesos nas variaveis
+Nao utilizar caracteres especiais ou espaços
+Nao comece com numeros
+A primeira letra de cada palavra é SEMPRE minuscula

@@ -1,0 +1,4 @@
+As importações dos namespaces são feitas através do using
+Elas definem quais biblotecas o nosso programa vai utilizar, seja elas internas, como namespace do proprio programa, quanto externas, como using system e por ai vai
+Por padrão só o basico vem incluso.
+Tudo que queremos usar nos temos que importar.

@@ -1,0 +1,12 @@
+Enquanto pastas são divisões físicas
+os namespaces são as divisões lógicas
+Assim como não podemos ter dois arquivos com mesmo nome nas pastas
+Não podemos ter duas classes com mesmo nome em um namespace
+O ideal é ter apenas um namespace e uma classe por arquivo
+O escopo de um namespace é definido entre chaves
+	Classes e métodos também
+Um namespace pode ser reutilizado
+	Pode estar presente em diversos arquivos
+
+O ideal é ter um namespace e uma classe por arquivo
+Pode ser usado como using para ser usado em outro arquivo
