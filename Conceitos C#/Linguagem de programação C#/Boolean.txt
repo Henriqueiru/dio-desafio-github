@@ -1,0 +1,7 @@
+Ele armazena true ou false
+Definido pela palavra reservada bool
+ele usa 8 bit, so pode definir true ou false
+Por exemplo, pode ter um bool usuarioJaCadastrado = false;
+bool pagamentoRecebido = true;
+o mesmo vale para var
+var usuarioExpirado = false;

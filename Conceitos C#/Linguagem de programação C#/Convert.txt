@@ -1,0 +1,7 @@
+Similar ao parse
+Porem permite converter varios tipos de valor
+	Nao apenas string
+Devemos informar o tipo na chamada da conversão
+
+exemplo:
+int inteiro = Convert.ToInt32("100");

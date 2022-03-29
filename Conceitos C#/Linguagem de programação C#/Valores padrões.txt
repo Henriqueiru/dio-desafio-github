@@ -1,0 +1,12 @@
+Quando se defini um tipo, ele sempre vem com valor padrão, ele nunca vem nulo.
+Um dos erros mais comuns no .NET é tentar acessar um objeto que ele esta nulo.
+Quando voce usa os tipos padroes ele sempre vem com o valor pq nao precisamos nos preocupar se ele é nulo
+Todo tipo built-in já possui um valor padrão
+Se nenhum valor for informado pra essa variavel o valor padrao vai ser utilizado
+
+-int = 0
+-float = 0
+decimal = 0
+bool = false
+char = \0
+String = ""

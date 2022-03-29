@@ -1,0 +1,12 @@
+Substitui o nome de um tipo
+Será do tipo do primeiro valor atribuido
+Recomendado o uso
+	Deixa para usar var quando ja dominar os tipos
+
+var idade = 25; // Será do tipo int
+var nome = "André"; // Será do tipo string
+
+IEnumerable<MeuTipoComplexo> aluno = new IEnumerable<MeuTipoComplexo();
+var aluno = new IEnumerable<MeuTipoComplexo>();
+
+Essa é uma situação boa para o var, mas o importante no começo é colocar os tipos que nao variam.

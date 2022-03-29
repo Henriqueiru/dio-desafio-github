@@ -1,0 +1,49 @@
+Conversão implicita
+É comum a gente precisar transformar o dado de uma variavel x em uma variavel y
+Existem dois tipos de conversão, as implicitas e as explicitas
+As implicitas são conversões que
+	Podem ser executadas apenas com passagem de dados
+	Possuem tipos compativeis
+Exemplo:
+
+floar valor = 25.8F;
+int outro = 25;
+valor = outro; // conversão implicita
+
+se eu atrelar o valor ao outro eu estou fazendo uma conversão implicita.
+Atribui um inteiro a um numero real. Nao tem problema em fazer isso;
+
+Int para real é facil de fazer.  
+O contrario nao acontece, nao conseguimos ter um numero real em um numero inteiro
+
+A conversão anterior ocorreu pois um numero real pode receber um numero inteiro
+	Um numero inteiro nao tem pontuação
+	Logo ele nao poderia receber um numero real
+A conversão só ocorrerá se
+	O tipo de dado for compativel
+	O tamanho do dado for compativel
+Em caso de numeros a precisao pode ser alterada
+Qualquer situação adversa causara erro
+
+
+Listas de aceitação:
+
+sbyte aceita: short, int, long, float, double, decimal
+
+byte aceita: short, ushort, int, uint, long, ulong, float, double, decimal
+
+short aceita: int, long, float, double, or decimal
+
+ushort aceita: int, uint, long, ulong, float, double, or decimal
+
+int aceita: long, float, double, or decimal
+
+uint aceita: long, ulong, float, double, or decimal
+
+long aceita: float, double, or decimal
+
+ulong aceita: float, double or decimal
+
+char aceita: ushort, int, uint, long, ulont, float, double or decimal
+
+float aceita: double

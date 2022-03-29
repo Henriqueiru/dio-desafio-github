@@ -1,0 +1,13 @@
+operadores:
+Soma => +
+Subtração => -
+Multiplicação => *
+Divisão => /
+
+Multiplicação e divisão são executadas primeiro
+Caso queria executar em outra ordem, usar parenteses
+Aceita short, int, float, double e decimal
+
+Em caso de uso de numeros inteiros
+	Se o valor for real, sera arredondado
+	- 4.4 => 5

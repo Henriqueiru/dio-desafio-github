@@ -1,0 +1,11 @@
+Armazena uma cadeia de caracteres
+Podemos pensar nele como uma lista de char
+Definido pela palavra reservada string
+A atribuição dela é dada por aspas duplas
+string(?)
+ocupa bits de acordo com o tanto de caractere que ela contem
+
+string Descricao = "Prato de arroz e feijão";
+var documento = "302139129319";
+
+com aspas duplas sera sempre uma string

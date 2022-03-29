@@ -1,0 +1,9 @@
+A implicita escondemos o tipo e assimilamos um ao outro
+A explicita é diferente é a conversão na qual a gente tem que obrigatoriamente informar o tipo que a gente ta convertendo
+Isso ocorre por exemplo quando os tipos nao sao compativeis
+É dada pelo uso do tipo entre parenteses antes da atribuição
+Segue as mesmas regras anteriores
+
+int inteiro = 100;
+
+uint inteiroSemSinal = (uint)inteiro; // Conversão explicita

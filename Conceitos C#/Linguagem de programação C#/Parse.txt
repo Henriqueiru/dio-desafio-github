@@ -1,0 +1,7 @@
+Metodo presente em todo tipo primitivo
+Usado para converter um caractere ou string para um tipo qualquer
+Caso haja alguma incompatibilidade gera um erro
+
+exemplo: int inteiro = int.Parse("100");
+
+segue o mesmo esquema da conversão explicita se houver um espaço, ou algo que nao seja um numero nesse caso.

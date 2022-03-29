@@ -1,0 +1,15 @@
+Numeros que exigem uma maior precisão ou seja com pontuação
+	float (Notação F)
+	double
+	decimal (Notação M)
+Possuem assimilação negativa e positiva por padrão, dispensando uso do signed/unsigned em seus tipos.
+float (31 bits)
+negativo a positivo
+double(64 bits)
+negativo a positivo
+decimal(128 bits)
+usado para dinheiro, mais precisão de calculo
+
+float = 2.500f;
+double 22.000;
+decimal = 25.000m;

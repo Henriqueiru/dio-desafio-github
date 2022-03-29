@@ -1,0 +1,9 @@
+Tipo generico que recebe qualquer valor ou objeto
+caso nao saiba o tipo da informação ou ela seja de varios tipos diferentes
+Nao possui intelisense (Ajuda dos editores) por ser um tipo desconhecido
+Evite usar
+
+object idade = 25; //sera do tipo object
+object nome = "Ricardo" ; // sera do tipo object
+
+É um tipo qualquer, nao é muito usado

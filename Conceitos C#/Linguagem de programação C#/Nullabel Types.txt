@@ -1,0 +1,21 @@
+Significa vazio, nada
+Diferente de zero ou uma string vazia
+Todo tipo, primitivo ou complexo pode receber o valor null
+O tipo deve ser marcado como Nullable Type
+
+void = vazio, significa que nao tem retorno nenhum.
+O null é a mesma coisa, ele significa nada também, é diferente de uma string vazia 
+Quando a gente defini int e nao passa nada ele é um inteiro mas ele é 0, valor padrao
+quando um tipo é nullable, ele é um valor vazio.
+Todo tipo vazio ele deve ser marcado como um valor null
+
+Podemos atribuir null a um objeto
+Desde que o mesmo seja marcado como nullable
+	Usando interrogação na frente do tipo
+Se uma chamada a um valor nulo for feita um erro sera apresentado
+
+Exemplo de um valor nulo:
+	int? idade = null;
+
+Esse tipo nulo toda vez que voce imprimir ele na tela ele retorna um valor vazio. 
+Em alguns momentos voce precisa ter um valor nulo, então temos a possibilidade de criar tipos nulos
