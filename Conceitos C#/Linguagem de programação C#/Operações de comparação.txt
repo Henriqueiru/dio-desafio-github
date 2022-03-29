@@ -1,0 +1,31 @@
+Comparar um dado com o outro
+Pode ser numero, string, array de byte, boleano, qualquer coisa do tipo
+Podemos comparar qualquer tipo de dado
+A comparação SEMPRE retorna verdadeiro ou falso
+	True ou False
+
+Definições:
+
+Igual
+	==
+Diferente
+	!=
+Maior que
+	>
+Menor que
+	<
+Maior ou igual a
+	>=
+Menor ou igual que
+	<=
+
+Exemplos:
+
+int x = 25; Isto é uma atribuição, não comparação
+
+x == 0; // False
+x != 0; // True
+x > 0; // True
+x < 0; // False
+x <= 0; // False
+x >= 0; // True
