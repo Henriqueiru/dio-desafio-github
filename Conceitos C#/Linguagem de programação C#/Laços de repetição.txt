@@ -1,0 +1,14 @@
+Tradução "para", ou seja, para cada item em um valor...
+Executa uma determinada ação varias vezes
+Definido pela palavra for
+Exige 3 parametros
+	Contador
+	Condição
+	Incremento
+
+Exemplo:
+// Conta de 0 a 5
+for (var i = 0 // Contador; i <= 5 // Condição; i++ // Incremento)
+// Conta de 1 a 5
+for (var i = 1; i <=5; i++)
+	Console.WriteLine (i)
