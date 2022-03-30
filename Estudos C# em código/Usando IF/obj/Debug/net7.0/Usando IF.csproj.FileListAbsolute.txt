@@ -1,0 +1,15 @@
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\bin\Debug\net7.0\Usando IF.exe
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\bin\Debug\net7.0\Usando IF.deps.json
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\bin\Debug\net7.0\Usando IF.runtimeconfig.json
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\bin\Debug\net7.0\Usando IF.dll
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\bin\Debug\net7.0\Usando IF.pdb
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\obj\Debug\net7.0\Usando IF.csproj.AssemblyReference.cache
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\obj\Debug\net7.0\Usando IF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\obj\Debug\net7.0\Usando IF.AssemblyInfoInputs.cache
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\obj\Debug\net7.0\Usando IF.AssemblyInfo.cs
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\obj\Debug\net7.0\Usando IF.csproj.CoreCompileInputs.cache
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\obj\Debug\net7.0\Usando IF.dll
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\obj\Debug\net7.0\refint\Usando IF.dll
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\obj\Debug\net7.0\Usando IF.pdb
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\obj\Debug\net7.0\Usando IF.genruntimeconfig.cache
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\Estudos C# em código\Usando IF\obj\Debug\net7.0\ref\Usando IF.dll

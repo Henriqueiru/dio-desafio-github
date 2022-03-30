@@ -1,0 +1,35 @@
+Tradução: "SE" ou seja, "caso alguma condição seja atendida
+Utilizado para tomada de decisões
+Utiliza os operadores logicos ou a composição 
+Complemento ao if
+Caso a condição nao seja atendida
+Podemos ter
+	else if(condição)
+	Não tem limites(mas cuidado)
+Podemos ter apenas else para executar algo caso a condição seja atendida
+
+Exemplos:
+
+if(condiçao){ // Caso seja verdadeiro
+...
+}
+
+
+if(condicao) // Caso seja verdadeiro
+... // Caso só haja uma linha, não precisa de chaves
+
+if(condicao) { // Caso seja verdadeiro
+}
+else{ // Caso seja falso
+}
+
+if(condição) // Caso seja verdadeiro
+... // Caso so haja uma linha, nao precisa de chaves
+else // Caso seja falso
+
+if(condicao){ // Caso seja verdadeiro
+}
+else if (condicao){ // Senão, testa outra condição
+}
+else { // Se não acontecer nenhuma das anteriores
+}
