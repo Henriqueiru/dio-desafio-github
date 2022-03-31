@@ -1,0 +1,46 @@
+Usado para fornecer uma melhor visualização docodigo
+Substituem o uso de inteiros
+Usados em listas curtas
+Usados em dados fixos
+	Hard Coded
+Sempre em maiusculo
+	Começar com a letra E
+
+Anatomia de um enumerador
+
+
+enum EEstadoCivil
+{
+	// Enumeradores
+}
+
+enum EEstadoCivil
+{
+	// Enumeradores
+	Solteiro = 1,
+	Casado = 2,
+	Divorciado = 3
+}
+
+Esse enumerador pode ser usado como um tipo ou qualquer variavel que seja
+Uso de um enumerador
+
+struct Cliente
+{
+	public string Nome;
+	public EEstadoCivil EstadoCivil;
+}
+
+// Sem enumeradores
+// var cliente = new Cliente("Joao Silva", 1);
+
+// Com enumerador
+var cliente = new Cliente("JoaoSilva", EEstadoCivil.Casado);
+
+Exibindo dados de um enumerador
+
+Console.WriteLine(cliente.Nome);
+Console.WriteLine(cliente.EstadoCivil); // Escreve Casado
+Console.WriteLine((int)cliente.EstadoCivil); // Escreve 2
+
+

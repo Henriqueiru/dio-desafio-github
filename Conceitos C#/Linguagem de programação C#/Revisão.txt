@@ -1,0 +1,10 @@
+Console, Variaveis, Constantes
+Tipos de dados, primitivos e built-in types
+Conversão de dados, como converter um tipo explicitamente e implicitamente
+Operadores(Aritméticos, atribuição, comparação e logicos)
+Estruturas condicionais(If e Switch)
+Laços de repetição (For, While e Do/While)
+Funções e métodos
+Tipos de referencia e tipos de valor
+Estruturas
+Enumeradores
