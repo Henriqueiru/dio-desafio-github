@@ -1,0 +1,6 @@
+<section> Seção generica de conteudo, como lista de artigos
+<header> Cabeçalho de uma pagina
+<article> conteudo relevante da sua pagina
+<aside> um conteudo relacionado ao conteudo inicial da pagina
+<footer> Rodapé da pagina
+<h1> ate <h6> Representam a importancia de um titulo em uma pagina

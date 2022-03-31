@@ -1,0 +1,11 @@
+Agrupar coleção de itens, como ingredientes ou contatos
+
+<ul>
+Item 1
+Item 2
+
+<ol>
+1. Item
+2. Item
+<li>
+é um item de uma das listas

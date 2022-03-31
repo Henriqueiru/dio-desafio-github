@@ -1,0 +1,3 @@
+<img>
+<img src="img/avatar.jps">
+<img alt="Foto de avatar">

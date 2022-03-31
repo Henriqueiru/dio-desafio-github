@@ -1,0 +1,10 @@
+h1 Titulo da pagina
+h2 Titulo da seção
+h3 Titulo de artigo
+p Conteudo do artigo
+
+a Link
+
+<a href="linkedin.com/in/vilaboim">LinkedIn</a>
+
+<a target="_blank">Link</a>
