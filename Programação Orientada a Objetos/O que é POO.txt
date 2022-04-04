@@ -1,0 +1,11 @@
+OOP significa Programação Orientada a Objetos.
+
+A programação procedural é sobre escrever procedimentos ou métodos que executam operações nos dados, enquanto a programação orientada a objetos trata da criação de objetos que contêm dados e métodos.
+
+A programação orientada a objetos tem várias vantagens sobre a programação procedural:
+
+OOP é mais rápido e fácil de executar
+OOP fornece uma estrutura clara para os programas
+OOP ajuda a manter o código C# DRY "Don't Repeat Yourself" e torna o código mais fácil de manter, modificar e depurar
+OOP possibilita a criação de aplicativos reutilizáveis ​​completos com menos código e menor tempo de desenvolvimento
+Dica: O princípio "Don't Repeat Yourself" (DRY) é sobre reduzir a repetição de código. Você deve extrair os códigos que são comuns para o aplicativo e colocá-los em um único local e reutilizá-los em vez de repeti-los.

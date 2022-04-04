@@ -1,0 +1,17 @@
+Classes e objetos são dos principais aspectos da programação orientada a objetos
+Exemplos:
+Classe:
+Fruta
+Objetos:
+Maça, Banana, Manga
+
+Outro exemplo:
+Classe:
+Carro
+Objetos:
+Volvo, Audi, Toyota
+
+Assim, uma classe é um modelo para objetos e um objeto é uma instancia de uma classe
+Quando os objetos individuais são criados, eles herdam todas as variáveis ​​e métodos da classe.
+
+Você aprenderá muito mais sobre classes e objetos no próximo capítulo.

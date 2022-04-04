@@ -1,0 +1,83 @@
+Classes e objetos
+Você aprendeu no capítulo anterior que C# é uma linguagem de programação orientada a objetos.
+
+Tudo em C# está associado a classes e objetos, juntamente com seus atributos e métodos. Por exemplo: na vida real, um carro é um objeto. O carro tem atributos , como peso e cor, e métodos , como tração e freio.
+
+Uma classe é como um construtor de objetos, ou um "projeto" para criar objetos.
+
+Criar uma classe
+Para criar uma classe, use a classpalavra-chave:
+
+Crie uma classe chamada " Car" com uma variável color:
+Exemplo:  
+class Car 
+{
+  string color = "red";
+}
+
+Quando uma variável é declarada diretamente em uma classe, ela geralmente é chamada de campo (ou atributo).
+
+Não é obrigatório, mas é uma boa prática começar com a primeira letra maiúscula ao nomear classes. Além disso, é comum que o nome do arquivo C# e a classe coincidam, pois isso deixa nosso código organizado. No entanto, não é necessário (como em Java).
+
+Criar um objeto
+Um objeto é criado a partir de uma classe. Já criamos a classe chamada Car, então agora podemos usar isso para criar objetos.
+
+Para criar um objeto de Car, especifique o nome da classe, seguido pelo nome do objeto e use a palavra-chave new:
+Exemplo
+Crie um objeto chamado " myObj" e use-o para imprimir o valor de color:
+class Car 
+{
+  string color = "red";
+
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.color);
+  }
+}
+
+Observe que usamos a sintaxe de ponto ( .) para acessar variáveis/campos dentro de uma classe ( myObj.color). Você aprenderá mais sobre campos no próximo capítulo.
+
+Vários objetos
+Você pode criar vários objetos de uma classe:
+
+Exemplo
+Crie dois objetos de Car:
+
+class Car
+{
+  string color = "red";
+  static void Main(string[] args)
+  {
+    Car myObj1 = new Car();
+    Car myObj2 = new Car();
+    Console.WriteLine(myObj1.color);
+    Console.WriteLine(myObj2.color);
+  }
+}
+
+Usando várias classes
+Você também pode criar um objeto de uma classe e acessá-lo em outra classe. Isso geralmente é usado para uma melhor organização das classes (uma classe possui todos os campos e métodos, enquanto a outra classe contém o Main()método (código a ser executado)).
+
+prog2.cs
+prog.cs
+
+prog2.cs:
+class Car 
+{
+  public string color = "red";
+}
+
+prog.cs:
+class Program
+{
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.color);
+  }
+}
+
+Você notou a palavra- publicchave? Ele é chamado de modificador de acesso , que especifica que a colorvariável/campo de Cartambém é acessível para outras classes, como Program.
+
+Você aprenderá muito mais sobre modificadores de acesso e classes/objetos nos próximos capítulos.
