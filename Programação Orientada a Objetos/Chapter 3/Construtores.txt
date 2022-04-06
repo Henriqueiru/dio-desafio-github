@@ -1,0 +1,34 @@
+Construtores
+Um construtor é um método especial usado para inicializar objetos. A vantagem de um construtor é que ele é chamado quando um objeto de uma classe é criado. Ele pode ser usado para definir valores iniciais para campos:
+
+Exemplo
+Crie um construtor:
+
+// Create a Car class
+class Car
+{
+  public string model;  // Create a field
+
+  // Create a class constructor for the Car class
+  public Car()
+  {
+    model = "Mustang"; // Set the initial value for model
+  }
+
+  static void Main(string[] args)
+  {
+    Car Ford = new Car();  // Create an object of the Car Class (this will call the constructor)
+    Console.WriteLine(Ford.model);  // Print the value of model
+  }
+}
+
+// Outputs "Mustang"
+
+
+Observe que o nome do construtor deve corresponder ao nome da classe e não pode ter um tipo de retorno (como voidou int).
+
+Observe também que o construtor é chamado quando o objeto é criado.
+
+Todas as classes têm construtores por padrão: se você não criar um construtor de classe, o C# cria um para você. No entanto, você não poderá definir valores iniciais para campos.
+
+Construtores economizam tempo! Dê uma olhada no último exemplo nesta página para realmente entender o porquê.

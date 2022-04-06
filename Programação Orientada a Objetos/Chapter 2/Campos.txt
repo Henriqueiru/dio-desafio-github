@@ -1,0 +1,61 @@
+Campos
+No capítulo anterior, você aprendeu que variáveis ​​dentro de uma classe são chamadas de campos e que você pode acessá-las criando um objeto da classe e usando a sintaxe de ponto ( .).
+
+O exemplo a seguir criará um objeto da Carclasse, com o nome myObj. Em seguida, imprimimos o valor dos campos color e maxSpeed:
+
+Exemplo
+class Car 
+{
+  string color = "red";
+  int maxSpeed = 200;
+
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.color);
+    Console.WriteLine(myObj.maxSpeed);
+  }
+}
+Você também pode deixar os campos em branco e modificá-los ao criar o objeto:
+
+Exemplo
+class Car 
+{
+  string color;
+  int maxSpeed;
+
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    myObj.color = "red";
+    myObj.maxSpeed = 200;
+    Console.WriteLine(myObj.color);
+    Console.WriteLine(myObj.maxSpeed);
+  }
+}
+
+Isso é especialmente útil ao criar vários objetos de uma classe:
+
+Exemplo
+class Car 
+{
+  string model;
+  string color;
+  int year;
+
+  static void Main(string[] args)
+  {
+    Car Ford = new Car();
+    Ford.model = "Mustang";
+    Ford.color = "red";
+    Ford.year = 1969;
+
+    Car Opel = new Car();
+    Opel.model = "Astra";
+    Opel.color = "white";
+    Opel.year = 2005;
+
+    Console.WriteLine(Ford.model);
+    Console.WriteLine(Opel.model);
+  }
+}

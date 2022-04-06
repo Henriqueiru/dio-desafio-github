@@ -1,0 +1,17 @@
+Membros da classe
+Campos e métodos dentro de classes são frequentemente chamados de "membros de classe":
+
+Exemplo
+Crie uma Carclasse com três membros de classe: dois campos e um método .
+// The class
+class MyClass
+{
+  // Class members
+  string color = "red";        // field
+  int maxSpeed = 200;          // field
+  public void fullThrottle()   // method
+  {
+    Console.WriteLine("The car is going as fast as it can!");
+  }
+}
+

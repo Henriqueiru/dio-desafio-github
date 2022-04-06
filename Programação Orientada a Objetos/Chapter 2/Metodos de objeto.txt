@@ -1,0 +1,27 @@
+Métodos de objeto
+Você aprendeu no capítulo Métodos C# que os métodos são usados ​​para executar determinadas ações.
+
+Os métodos normalmente pertencem a uma classe e definem como um objeto de uma classe se comporta.
+
+Assim como com os campos, você pode acessar métodos com a sintaxe de ponto. No entanto, observe que o método deve ser public. E lembre-se que usamos o nome do método seguido de dois parênteses ()e um ponto e vírgula ;para chamar (executar) o método:
+
+Exemplo
+class Car 
+{
+  string color;                 // field
+  int maxSpeed;                 // field
+  public void fullThrottle()    // method
+  {
+    Console.WriteLine("The car is going as fast as it can!"); 
+  }
+
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    myObj.fullThrottle();  // Call the method
+  }
+}
+Por que declaramos o método como public, e não static, como nos exemplos do Capítulo de Métodos C# ?
+
+A razão é simples: um staticmétodo pode ser acessado sem criar um objeto da classe, enquanto publicos métodos só podem ser acessados ​​por objetos.
+

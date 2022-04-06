@@ -1,0 +1,38 @@
+Usar várias classes
+Lembre-se do capítulo anterior, que podemos usar várias classes para melhor organização (uma para campos e métodos e outra para execução). Isto é recomendado:
+
+prog2.cs
+class Car 
+{
+  public string model;
+  public string color;
+  public int year;
+  public void fullThrottle()
+  {
+    Console.WriteLine("The car is going as fast as it can!"); 
+  }
+}
+prog.cs
+class Program
+{
+  static void Main(string[] args)
+  {
+    Car Ford = new Car();
+    Ford.model = "Mustang";
+    Ford.color = "red";
+    Ford.year = 1969;
+
+    Car Opel = new Car();
+    Opel.model = "Astra";
+    Opel.color = "white";
+    Opel.year = 2005;
+
+    Console.WriteLine(Ford.model);
+    Console.WriteLine(Opel.model);
+  }
+}
+A publicpalavra-chave é chamada de modificador de acesso , que especifica que os campos de Cartambém são acessíveis para outras classes, como Program.
+
+Você aprenderá mais sobre Modificadores de Acesso em um capítulo posterior.
+
+Dica: Ao continuar a leitura, você também aprenderá mais sobre outros membros de classe, como construtores e propriedades .
