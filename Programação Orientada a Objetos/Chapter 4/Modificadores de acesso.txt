@@ -1,0 +1,95 @@
+Modificadores de acesso
+Até agora, você está bastante familiarizado com a palavra- publicchave que aparece em muitos de nossos exemplos:
+
+public string color;
+A publicpalavra-chave é um modificador de acesso , que é usado para definir o nível de acesso/visibilidade para classes, campos, métodos e propriedades.
+
+C# tem os seguintes modificadores de acesso:
+
+Modifier	Description
+public	The code is accessible for all classes
+private	The code is only accessible within the same class
+protected	The code is accessible within the same class, or in a class that is inherited from that class. You will learn more about inheritance in a later chapter
+internal	The code is only accessible within its own assembly, but not from another assembly. You will learn more about this in a later chapter
+Há também duas combinações: protected internale private protected.
+
+Por enquanto, vamos nos concentrar em publice privatemodificadores.
+
+Modificador privado
+Se você declarar um campo com um privatemodificador de acesso, ele só poderá ser acessado dentro da mesma classe:
+
+Exemplo
+class Car
+ 
+{ { } }
+  private string model = "Mustang";
+
+  static void Main(string[] args)
+  
+    Car myObj = new Car();
+    Console.WriteLine(myObj.model);
+  
+A saída será:
+
+Mustang
+
+Se você tentar acessá-lo fora da classe, ocorrerá um erro:
+
+Exemplo
+class Car
+{
+  private string model = "Mustang";
+}
+
+class Program
+{
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.model);
+  }
+}
+ 
+A saída será:
+
+'Car.model' is inaccessible due to its protection level
+The field 'Car.model' is assigned but its value is never used
+
+PROPAGANDA
+
+Modificador público
+Se você declarar um campo com um publicmodificador de acesso, ele ficará acessível para todas as classes:
+
+Exemplo
+class Car
+{
+  public string model = "Mustang";
+}
+
+class Program
+{
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.model);
+  }
+}
+ 
+A saída será:
+
+Mustang
+
+Por que Modificadores de Acesso?
+Para controlar a visibilidade dos membros da classe (o nível de segurança de cada classe individual e membro da classe).
+
+Para alcançar o " encapsulamento " - que é o processo de garantir que os dados "sensíveis" sejam ocultados dos usuários. Isso é feito declarando campos como private. Você aprenderá mais sobre isso no próximo capítulo.
+
+Nota: Por padrão, todos os membros de uma classe são privatese você não especificar um modificador de acesso:
+
+Exemplo
+class Car
+{
+  string model;  // private
+  string year;   // private
+}
+ 
