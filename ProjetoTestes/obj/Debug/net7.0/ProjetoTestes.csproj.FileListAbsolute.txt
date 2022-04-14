@@ -1,0 +1,15 @@
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\bin\Debug\net7.0\ProjetoTestes.exe
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\bin\Debug\net7.0\ProjetoTestes.deps.json
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\bin\Debug\net7.0\ProjetoTestes.runtimeconfig.json
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\bin\Debug\net7.0\ProjetoTestes.dll
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\bin\Debug\net7.0\ProjetoTestes.pdb
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\obj\Debug\net7.0\ProjetoTestes.csproj.AssemblyReference.cache
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\obj\Debug\net7.0\ProjetoTestes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\obj\Debug\net7.0\ProjetoTestes.AssemblyInfoInputs.cache
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\obj\Debug\net7.0\ProjetoTestes.AssemblyInfo.cs
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\obj\Debug\net7.0\ProjetoTestes.csproj.CoreCompileInputs.cache
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\obj\Debug\net7.0\ProjetoTestes.dll
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\obj\Debug\net7.0\refint\ProjetoTestes.dll
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\obj\Debug\net7.0\ProjetoTestes.pdb
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\obj\Debug\net7.0\ProjetoTestes.genruntimeconfig.cache
+C:\Users\Usuário\Desktop\DesafioDio\dio-desafio-github\ProjetoTestes\obj\Debug\net7.0\ref\ProjetoTestes.dll

@@ -1,0 +1,95 @@
+Propriedades e Encapsulamento
+Antes de começarmos a explicar as propriedades, você deve ter um entendimento básico de " Encapsulamento ".
+
+O significado de Encapsulation , é garantir que os dados "sensíveis" estejam ocultos dos usuários. Para conseguir isso, você deve:
+
+declarar campos/variáveis ​​comoprivate
+fornecer public get e setmétodos, por meio de propriedades , para acessar e atualizar o valor de um private campo
+Propriedades
+Você aprendeu no capítulo anterior que privateas variáveis ​​só podem ser acessadas dentro da mesma classe (uma classe externa não tem acesso a ela). No entanto, às vezes precisamos acessá-los - e isso pode ser feito com propriedades.
+
+Uma propriedade é como uma combinação de uma variável e um método, e tem dois métodos: a gete um setmétodo:
+
+Exemplo
+class Person
+{
+  private string name; // field
+
+  public string Name   // property
+  {
+    get { return name; }   // get method
+    set { name = value; }  // set method
+  }
+} 
+ 
+ 
+Exemplo explicado
+A Namepropriedade está associada ao namecampo. É uma boa prática usar o mesmo nome para a propriedade e o campo privado, mas com a primeira letra maiúscula.
+
+O getmétodo retorna o valor da variável name.
+
+O setmétodo atribui valuea à namevariável. A palavra- valuechave representa o valor que atribuímos à propriedade.
+
+Se você não entendeu completamente, dê uma olhada no exemplo abaixo.
+
+Agora podemos usar a Namepropriedade para acessar e atualizar o privatecampo da Personclasse:
+
+Exemplo
+class Person
+{
+  private string name; // field
+  public string Name   // property
+  {
+    get { return name; }
+    set { name = value; }
+  }
+}
+
+class Program
+{
+  static void Main(string[] args)
+  {
+    Person myObj = new Person();
+    myObj.Name = "Liam";
+    Console.WriteLine(myObj.Name);
+  }
+}
+ 
+ 
+ 
+ 
+ 
+A saída será:
+
+Liam
+
+PROPAGANDA
+
+Propriedades automáticas (curta)
+C# também fornece uma maneira de usar propriedades abreviadas/automáticas, onde você não precisa definir o campo para a propriedade, e você só precisa escrever get; e set;dentro da propriedade.
+
+O exemplo a seguir produzirá o mesmo resultado que o exemplo acima. A única diferença é que há menos código:
+
+Exemplo
+Usando propriedades automáticas:
+
+class Person
+{
+  public string Name  // property
+  { get; set; }
+}
+
+class Program
+{
+  static void Main(string[] args)
+  {
+    Person myObj = new Person();
+    myObj.Name = "Liam";
+    Console.WriteLine(myObj.Name);
+  }
+}
+ 
+ 
+A saída será:
+
+Liam

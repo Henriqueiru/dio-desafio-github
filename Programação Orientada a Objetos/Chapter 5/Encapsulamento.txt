@@ -1,0 +1,5 @@
+Por que Encapsulamento?
+Melhor controle dos membros da classe (reduza a possibilidade de você (ou outros) bagunçar o código)
+Os campos podem ser somente leitura (se você usar apenas o getmétodo) ou somente gravação (se você usar apenas o setmétodo)
+Flexível: o programador pode alterar uma parte do código sem afetar outras partes
+Maior segurança dos dados
