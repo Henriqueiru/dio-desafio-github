@@ -1,0 +1,6 @@
+dotnet clean
+dotnet build
+dotnet ef migrations add ADICIONAR // Para adicionar alguma mudança no banco ou iniciar o migrations
+dotnet ef database update // geralmente é feito para atualizar o banco de dados
+dotnet ef migrations remove // Ele sempre remove a ultima adição
+Mas o ideal é caso queira excluir uma prop voce simplesmente exclui ela do programa e da um migration novo.
