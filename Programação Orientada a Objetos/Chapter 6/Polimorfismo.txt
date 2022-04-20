@@ -1,0 +1,136 @@
+Polimorfismo e métodos de substituição
+Polimorfismo significa "muitas formas", e ocorre quando temos muitas classes que estão relacionadas entre si por herança.
+
+Como especificamos no capítulo anterior; A herança nos permite herdar campos e métodos de outra classe. O polimorfismo usa esses métodos para realizar diferentes tarefas. Isso nos permite realizar uma única ação de maneiras diferentes.
+
+Por exemplo, pense em uma classe base chamada Animalque tem um método chamado animalSound(). Classes derivadas de animais podem ser porcos, gatos, cachorros, pássaros - e eles também têm sua própria implementação de um som animal (o porco uiva, o gato mia, etc.):
+
+Exemplo
+class Animal  // Base class (parent) 
+{
+  public void animalSound() 
+  {
+    Console.WriteLine("The animal makes a sound");
+  }
+}
+
+class Pig : Animal  // Derived class (child) 
+{
+  public void animalSound() 
+  {
+    Console.WriteLine("The pig says: wee wee");
+  }
+}
+
+class Dog : Animal  // Derived class (child) 
+{
+  public void animalSound() 
+  {
+    Console.WriteLine("The dog says: bow wow");
+  }
+} 
+ 
+ 
+Lembre-se do capítulo Herança que usamos o :símbolo para herdar de uma classe.
+
+Agora podemos criar Pige Dogobjetos e chamar o animalSound()método em ambos:
+
+Exemplo
+class Animal  // Base class (parent) 
+{
+  public void animalSound() 
+  {
+    Console.WriteLine("The animal makes a sound");
+  }
+}
+
+class Pig : Animal  // Derived class (child) 
+{
+  public void animalSound() 
+  {
+    Console.WriteLine("The pig says: wee wee");
+  }
+}
+
+class Dog : Animal  // Derived class (child) 
+{
+  public void animalSound() 
+  {
+    Console.WriteLine("The dog says: bow wow");
+  }
+}
+
+class Program 
+{
+  static void Main(string[] args) 
+  {
+    Animal myAnimal = new Animal();  // Create a Animal object
+    Animal myPig = new Pig();  // Create a Pig object
+    Animal myDog = new Dog();  // Create a Dog object
+
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
+  }
+} 
+ 
+ 
+A saída será:
+
+The animal makes a sound
+The animal makes a sound
+The animal makes a sound
+
+Não é a saída que eu estava procurando
+A saída do exemplo acima provavelmente não foi o que você esperava. Isso ocorre porque o método da classe base substitui o método da classe derivada, quando eles compartilham o mesmo nome.
+
+No entanto, o C# fornece uma opção para substituir o método da classe base, adicionando a virtualpalavra-chave ao método dentro da classe base e usando a palavra- overridechave para cada método de classe derivada:
+
+Exemplo
+class Animal  // Base class (parent) 
+{
+  public virtual void animalSound() 
+  {
+    Console.WriteLine("The animal makes a sound");
+  }
+}
+
+class Pig : Animal  // Derived class (child) 
+{
+  public override void animalSound() 
+  {
+    Console.WriteLine("The pig says: wee wee");
+  }
+}
+
+class Dog : Animal  // Derived class (child) 
+{
+  public override void animalSound() 
+  {
+    Console.WriteLine("The dog says: bow wow");
+  }
+}
+
+class Program 
+{
+  static void Main(string[] args) 
+  {
+    Animal myAnimal = new Animal();  // Create a Animal object
+    Animal myPig = new Pig();  // Create a Pig object
+    Animal myDog = new Dog();  // Create a Dog object
+
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
+  }
+} 
+ 
+ 
+A saída será:
+
+The animal makes a sound
+The pig says: wee wee
+The dog says: bow wow
+
+Por que e quando usar "herança" e "polimorfismo"?
+- É útil para reutilização de código: reutilize campos e métodos de uma classe existente ao criar uma nova classe.
