@@ -18,6 +18,8 @@ namespace ManipulandoStrings
 
       var resultado = texto.Substring(5, 5);
       Console.WriteLine(resultado);
+
+      Console.WriteLine(texto.Trim());
     }
   }
 }
