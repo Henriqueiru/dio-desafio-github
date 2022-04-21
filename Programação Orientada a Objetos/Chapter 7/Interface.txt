@@ -1,0 +1,99 @@
+Interfaces
+Outra maneira de obter abstração em C# é com interfaces.
+
+An interfaceé uma " classe abstrata ", que só pode conter métodos e propriedades abstratas (com corpos vazios):
+
+Exemplo
+// interface
+interface Animal 
+{
+  void animalSound(); // interface method (does not have a body)
+  void run(); // interface method (does not have a body)
+}
+ 
+É considerado uma boa prática começar com a letra "I" no início de uma interface, pois torna mais fácil para você e para os outros lembrarem que é uma interface e não uma classe.
+
+Por padrão, os membros de uma interface são abstracte public.
+
+Nota: As interfaces podem conter propriedades e métodos, mas não campos.
+
+Para acessar os métodos de interface, a interface deve ser "implementada" (como herdada) por outra classe. Para implementar uma interface, use o : símbolo (assim como na herança). O corpo do método de interface é fornecido pela classe "implement". Observe que você não precisa usar a palavra- override chave ao implementar uma interface:
+
+Exemplo
+// Interface
+interface IAnimal 
+{
+  void animalSound(); // interface method (does not have a body)
+}
+
+// Pig "implements" the IAnimal interface
+class Pig : IAnimal 
+{
+  public void animalSound() 
+  {
+    // The body of animalSound() is provided here
+    Console.WriteLine("The pig says: wee wee");
+  }
+}
+
+class Program 
+{
+  static void Main(string[] args) 
+  {
+    Pig myPig = new Pig();  // Create a Pig object
+    myPig.animalSound();
+  }
+} 
+ 
+
+Notas sobre Interfaces:
+Assim como as classes abstratas , as interfaces não podem ser usadas para criar objetos (no exemplo acima, não é possível criar um objeto "IAnimal" na classe Program)
+Métodos de interface não possuem corpo - o corpo é fornecido pela classe "implement"
+Na implementação de uma interface, você deve substituir todos os seus métodos
+Interfaces podem conter propriedades e métodos, mas não campos/variáveis
+Os membros da interface são por padrão abstracte public
+Uma interface não pode conter um construtor (já que não pode ser usada para criar objetos)
+Por que e quando usar interfaces?
+1) Para obter segurança - oculte certos detalhes e mostre apenas os detalhes importantes de um objeto (interface).
+
+2) C# não suporta "herança múltipla" (uma classe só pode herdar de uma classe base). No entanto, isso pode ser alcançado com interfaces, porque a classe pode implementar várias interfaces. Nota: Para implementar várias interfaces, separe-as com uma vírgula (veja o exemplo abaixo).
+
+PROPAGANDA
+
+Múltiplas Interfaces
+Para implementar várias interfaces, separe-as com uma vírgula:
+
+Exemplo
+interface IFirstInterface 
+{
+  void myMethod(); // interface method
+}
+
+interface ISecondInterface 
+{
+  void myOtherMethod(); // interface method
+}
+
+// Implement multiple interfaces
+class DemoClass : IFirstInterface, ISecondInterface 
+{
+  public void myMethod() 
+  {
+    Console.WriteLine("Some text..");
+  }
+  public void myOtherMethod() 
+  {
+    Console.WriteLine("Some other text...");
+  }
+}
+
+class Program 
+{
+  static void Main(string[] args)
+  {
+    DemoClass myObj = new DemoClass();
+    myObj.myMethod();
+    myObj.myOtherMethod();
+  }
+} 
+

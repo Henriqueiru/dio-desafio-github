@@ -1,0 +1,120 @@
+C# enumerações
+An enumé uma "classe" especial que representa um grupo de constantes (variáveis ​​imutáveis/somente leitura).
+
+Para criar um enum, use a palavra- enumchave (em vez de classe ou interface) e separe os itens de enumeração com uma vírgula:
+
+Exemplo
+enum Level 
+{
+  Low,
+  Medium,
+  High
+}
+Você pode acessar enumitens com a sintaxe de ponto :
+
+Level myVar = Level.Medium;
+Console.WriteLine(myVar);
+Enum é a abreviação de "enumerações", que significa "listado especificamente".
+
+Enum dentro de uma classe
+Você também pode ter um enumdentro de uma classe:
+
+Exemplo
+class Program
+{
+  enum Level
+  {
+    Low,
+    Medium,
+    High
+  }
+  static void Main(string[] args)
+  {
+    Level myVar = Level.Medium;
+    Console.WriteLine(myVar);
+  }
+}
+A saída será:
+
+Medium
+PROPAGANDA
+
+Valores de enumeração
+Por padrão, o primeiro item de uma enumeração tem o valor 0. O segundo tem o valor 1 e assim por diante.
+
+Para obter o valor inteiro de um item, você deve converter explicitamente o item em um int:
+
+Exemplo
+enum Months
+{
+  January,    // 0
+  February,   // 1
+  March,      // 2
+  April,      // 3
+  May,        // 4
+  June,       // 5
+  July        // 6
+}
+
+static void Main(string[] args)
+{
+  int myNum = (int) Months.April;
+  Console.WriteLine(myNum);
+}
+A saída será:
+
+3
+Você também pode atribuir seus próprios valores de enumeração e os próximos itens atualizarão o número de acordo:
+
+Exemplo
+enum Months
+{
+  January,    // 0
+  February,   // 1
+  March=6,    // 6
+  April,      // 7
+  May,        // 8
+  June,       // 9
+  July        // 10
+}
+
+static void Main(string[] args)
+{
+  int myNum = (int) Months.April;
+  Console.WriteLine(myNum);
+}
+A saída será:
+
+7
+Enum em uma instrução de switch
+Enums são frequentemente usados ​​em switchinstruções para verificar os valores correspondentes:
+
+Exemplo
+enum Level 
+{
+  Low,
+  Medium,
+  High
+}
+
+static void Main(string[] args) 
+{
+  Level myVar = Level.Medium;
+  switch(myVar) 
+  {
+    case Level.Low:
+      Console.WriteLine("Low level");
+      break;
+    case Level.Medium:
+       Console.WriteLine("Medium level");
+      break;
+    case Level.High:
+      Console.WriteLine("High level");
+      break;
+  }
+}
+A saída será:
+
+Medium level
+Por que e quando usar enums?
+Use enums quando tiver valores que você sabe que não vão mudar, como dias do mês, dias, cores, baralho de cartas, etc.

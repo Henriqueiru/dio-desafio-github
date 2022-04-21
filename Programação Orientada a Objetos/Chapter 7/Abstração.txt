@@ -1,0 +1,70 @@
+Classes e métodos abstratos
+A abstração de dados é o processo de ocultar certos detalhes e mostrar apenas informações essenciais ao usuário.
+A abstração pode ser alcançada com classes abstratas ou interfaces (sobre as quais você aprenderá mais no próximo capítulo).
+
+A abstractpalavra-chave é usada para classes e métodos:
+
+Classe abstrata: é uma classe restrita que não pode ser usada para criar objetos (para acessá-la, ela deve ser herdada de outra classe).
+
+Método abstrato: só pode ser usado em uma classe abstrata e não possui corpo. O corpo é fornecido pela classe derivada (herdada de).
+Uma classe abstrata pode ter métodos abstratos e regulares:
+
+abstract class Animal 
+{
+  public abstract void animalSound();
+  public void sleep() 
+  {
+    Console.WriteLine("Zzz");
+  }
+}
+ 
+ 
+A partir do exemplo acima, não é possível criar um objeto da classe Animal:
+
+Animal myObj = new Animal(); // Will generate an error (Cannot create an instance of the abstract class or interface 'Animal')
+Para acessar a classe abstrata, ela deve ser herdada de outra classe. Vamos converter a classe Animal que usamos no capítulo Polimorfismo em uma classe abstrata.
+
+Lembre-se do capítulo Herança que usamos o :símbolo para herdar de uma classe e que usamos a overridepalavra-chave para substituir o método da classe base.
+
+Exemplo
+// Abstract class
+abstract class Animal
+{
+  // Abstract method (does not have a body)
+  public abstract void animalSound();
+  // Regular method
+  public void sleep()
+  {
+    Console.WriteLine("Zzz");
+  }
+}
+
+// Derived class (inherit from Animal)
+class Pig : Animal
+{
+  public override void animalSound()
+  {
+    // The body of animalSound() is provided here
+    Console.WriteLine("The pig says: wee wee");
+  }
+}
+
+class Program
+{
+  static void Main(string[] args)
+  {
+    Pig myPig = new Pig(); // Create a Pig object
+    myPig.animalSound();  // Call the abstract method
+    myPig.sleep();  // Call the regular method
+  }
+} 
+ 
+ 
+ 
+ 
+ 
+
+Por que e quando usar classes e métodos abstratos?
+Para obter segurança - oculte certos detalhes e mostre apenas os detalhes importantes de um objeto.
+
+Nota: A abstração também pode ser alcançada com Interfaces , sobre as quais você aprenderá mais no próximo capítulo.
