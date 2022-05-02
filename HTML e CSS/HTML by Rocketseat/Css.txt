@@ -1,0 +1,18 @@
+Anatomia:
+
+body{
+	color: #333333;
+}
+
+cascata é o jeito que esta construindo o css
+
+Algo interessante, é que se a mesma tag for deinida ou elemento o style de baixo sera o que vai valer e o de cima nao sera valido
+
+Especificidade: 
+a.button ele sobrescreveu, portanto ele vale amis e o .button nao. O valor de classe por exemplo .button recebe 1 valor alem do 1 do button, portanto vale mais que o de baixo, então o efeito cascata foi anulado
+
+Todo elemento é uma caixa, toda caixa tem uma borda, padding é preenchimento da caixa, counteudo da caixa tem altura e largura.
+
+Responsividade:
+Unidade relativa para ser responsivo
+Resposividade responde aos diversos tipos de tela
