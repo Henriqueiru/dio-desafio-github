@@ -1,0 +1,33 @@
+O que é TLS? Como ele se aplica ao HTTPS
+TLS significa “transport layer security” (segurança da camada de transporte). Ele ajuda a criptografar HTTPS e pode ser usado para proteger e-mails e outros protocolos. Usa técnicas criptográficas que garantem que os dados não foram adulterados desde que foram enviados, que as comunicações estão em posse da pessoa real de onde a comunicação veio e evita que dados privados sejam visualizados.
+
+Tudo começa com um TLS handshake, o processo que inicia uma sessão de comunicação que usa criptografia TLS. É aqui que ocorre a autenticação e as chaves de sessão são criadas. Novas chaves de sessão são geradas quando dois dispositivos se comunicam, a partir das duas chaves diferentes que funcionam em conjunto. O resultado disso é uma comunicação mais profunda e criptografada.
+
+Handshake TLS detalhes
+Abaixo estão alguns erros que o Google sugere que você evite.
+
+Erros de https do Google
+Uma etapa essencial para HTTPS: autenticação do servidor da Web
+O passo mais importante para uma conexão segura HTTPS é garantir que um servidor da Web seja quem diz ser.
+
+É por isso que o certificado SSL é a parte mais importante de tudo isso: ele garante que o proprietário do servidor da Web é quem o certificado diz ser. Isso funciona de forma muito parecida a uma carteira de motorista: ele confirma a identidade do proprietário do servidor.
+
+Quando você implementa o HTTPS, há uma camada de proteção contra certos tipos de ataques, o que o torna um elemento valioso para o site.
+
+HTTP x HTTPS — HTTPS constrói confiança com os usuários
+Um grande benefício do HTTPS é que ele ajuda a construir confiança com os usuários. Se você tem um site de e-commerce que aceita dados de cartão de crédito, o fato de que há um cadeado no seu site no navegador transmite aos usuários a confiança de que o site pode lidar com transações de cartão de crédito sem vazar dados.
+
+Conexão segura https
+Assim, os usuários confiam no site muito mais do que se ele fosse um site sem segurança — e navegadores modernos alertam os usuários quando os sites não são "seguros".
+
+Com HTTPS, dados de cartão de crédito, senhas, dados de usuários privados e dados pessoais são criptografados com uma forte camada de segurança. Essa segurança é o que permitirá que o site continue a ser competitivo com outros no nicho.
+
+Além de proteger os dados do usuário, https:// ajuda a proteger sua reputação. Se você sofre violações de segurança regularmente no site e dados de usuários são expostos, as pessoas não vão querer usá-lo. Isso pode prejudicar sua reputação online de modo irreparável e comprometer você a longo prazo.
+
+Exceções ao HTTP
+
+Embora exceções sejam cada vez mais raras hoje em dia, ainda existem casos que não fizeram a mudança completa para https://. Em certos casos, isso faz sentido — se seus usuários não fornecem dados confidenciais regularmente para e-commerce ou por outros motivos, provavelmente você não precisará aumentar a segurança.
+
+Em um mundo perfeito, quando todos os fatores de um site são iguais, https:// é o desempate em posicionamentos. No entanto, raramente vivemos em um mundo perfeito quando se trata de SEO. Assim, você ainda pode se posicionar com http://.
+
+Embora os benefícios do https:// sejam muitos, John Mueller também disse que o HTTPS é um fator de classificação leve, e ele é, mas o Google diz que "quando todo o resto é igual, o HTTPS é o status de desempate no posicionamento."

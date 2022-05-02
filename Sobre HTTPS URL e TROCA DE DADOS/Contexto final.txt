@@ -1,0 +1,42 @@
+Escolha o certificado de segurança correto: certificados SSL e Wildcard
+Certificados SSL são úteis para vários fins. Um para um único domínio, outro para vários domínios, sem mencionar os certificados Wildcard. Para sites menores, um certificado Wildcard completo geralmente não é necessário. No entanto, ele pode tornar sua vida muito mais fácil ao controlar a sintaxe de URL nos seus sites.
+
+Um certificado SSL para um único domínio é emitido para um subdomínio ou para o próprio domínio. Um certificado SSL para vários domínios permitirá que você proteja o nome de domínio principal e até 99 SANs ou nomes de assunto alternativos.
+
+O wildcard permite proteger a URL inicial do site e todos os subdomínios associados a ela. O que isso significa? Significa que, se você configurar domain.maindomain.com e ele for criado com um certificado wildcard, ele será seguro automaticamente. Você não precisará investir mais esforços para garantir que ele se encaixe na segurança que o site já tem. Em outras palavras, vai eliminar muitas dores de cabeça.
+
+Claramente, o certificado wildcard é o vencedor. Mas, como um certificado robusto com muitas características diferentes, ele custa mais, então você terá que ponderar a despesa comercial adicional e compará-la com os recursos que ganhará.
+
+Confira se todas as URLs estão atualizadas em todo o site
+Alguns recomendam usar apenas URLs relativas para seus recursos. Assumindo que você tem habilidade em gerenciar as necessidades contínuas do site, não precisa dessa etapa. Basta garantir que todo o conteúdo no site esteja protegido pelo protocolo correto. E não se esqueça do seu sitemap XML!
+
+É surpreendente quantas auditorias de sites mostram que essa etapa não foi feita: garantir que todo o conteúdo esteja protegido.
+
+Não importa se você usa URLs relativas ou absolutas, desde que as mantenha atualizadas no site. Você pode mudar para URLs relativas, se preferir, mas se o site é construído em URLs absolutas, use a opção de localizar e substituir no seu banco de dados, se seu site permitir isso. Isso ajudará você a eliminar todas as ocorrências existentes de conteúdo misto.
+
+Confira se as URLs começam com https:// depois de fazer a transição, e provavelmente você não terá grandes problemas.
+
+Não impeça o Google de rastrear seu novo site HTTPS
+Garanta que todos os elementos sejam rastreáveis a partir do seu robots.txt. A menos que você tenha um problema específico, como uma pasta que realmente não deve ser indexada, faz sentido permitir que o Google rastreie todo o site, até mesmo arquivos CSS e JS. Se seu site não permite a renderização de arquivos CSS e JS, talvez você encontre problemas.
+
+Um exemplo disso é que, se você não permitir que um elemento CSS ou JS importante seja renderizado na página, poderá impedir que o Google entenda todo o contexto da página, o que é importante para alcançar posicionamentos mais altos. Além disso, em cerca de 99% dos casos, não há razão para proibir arquivos CSS ou JSS dessa maneira.
+
+A ferramenta Auditoria do site da SEMrush fornecerá muitas informações úteis sobre a implementação de HTTPS. Ela mostra os problemas que você pode ter e oferece recomendações para corrigi-los. 
+
+Https erros na auditoria de site da Semrush
+Confira tudo durante a migração
+O monitoramento regular e contínuo do site é fundamental para a migração bem-sucedida para https://. Verifique o Google Search Console, o Google Analytics e confira com outro software de relatório. Se você não tiver atualizado de http:// para https://, faça isso o mais rápido possível. Dessa forma, não encontrará mais problemas que possam prejudicar seriamente seus esforços de SEO.
+
+Teste a ferramenta Auditoria do site da SEMrush
+
+Confira como ela economiza seu tempo!
+
+Encontre erros no site agora mesmo →
+ADS illustration
+HTTP:// x HTTPS:// : qual é o melhor?
+Se você não entende bem de SEO, pode ser assustador descobrir os detalhes por trás da escolha de um protocolo com ou sem segurança. Confira alguns pontos que podem ajudar a tomar uma decisão:
+
+Você tem uma loja de e-commerce que lida com informações confidenciais de cartão de crédito e dados pessoais?Então, proteger seu site com HTTPS é a opção ideal. Ele ajudará a transmitir boa vontade e confiança aos clientes online, e garantirá que você não cometa o erro de estar vulnerável para ataques na Web. Sua reputação online também terá um posicionamento mais positivo.
+Você não tem uma loja de e-commerce, mas lida com pessoas que enviam informações (por exemplo, através de um site de geração de leads)? Então você precisa usar HTTPS. As pessoas contam com a segurança da Web para protegê-las, e não querem que seus dados pessoais sejam comprometidos. Essa escolha ajuda a adicionar mais uma camada de confiança e legitimidade à sua empresa.
+Você deve usar a opção gratuita Let 's Encrypt? Bem, depende. Você está começando e não tem orçamento para outra opção? Então, essa é uma boa ideia. Mas, se você é uma empresa que ganha muitos milhões, usar uma opção mais cara como GeoTrust ou Comodo é mais indicado. Ambas fazem a mesma coisa quando a implementação é bem feita, mas no marketing, a percepção é importante.
+A escolha de continuar com http:// ou mudar para https:// depende de você. Mas, quando se trata de criar uma Web mais segura, mudar para https:// tem suas vantagens.

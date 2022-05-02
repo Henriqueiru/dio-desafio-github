@@ -1,4 +1,4 @@
-dotnet clean
+edotnet clean
 dotnet build
 dotnet ef migrations add ADICIONAR // Para adicionar alguma mudança no banco ou iniciar o migrations
 dotnet ef database update // geralmente é feito para atualizar o banco de dados

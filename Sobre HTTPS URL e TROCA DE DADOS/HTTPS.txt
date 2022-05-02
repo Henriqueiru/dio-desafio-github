@@ -1,0 +1,39 @@
+Uma definição rápida: HTTPS significa “protocolo de transferência de hipertexto seguro” (hypertext transfer protocol secure, em inglês), e é a versão criptografada do HTTP. Ele é usado para realizar a comunicação segura na Internet ou em uma rede. O protocolo de comunicação é criptografado usando Transport Layer Security (TLS) ou, anteriormente, Secure Sockets Layer (SSL). 
+
+Neste artigo vamos analisar em detalhes o mundo do HTTP x HTTPS, como eles funcionam e como garantir que seu site sobreviva a qualquer problema técnico ao migrar de um protocolo para outro. Esta é uma breve descrição do que vamos tratar:
+
+No início, os profissionais de SEO usavam HTTP, um protocolo utilizado para oferecer páginas para os usuários. A Web era simples e as migrações de sites existiam apenas de domínio para domínio ou servidor para servidor. Não era necessário se preocupar com muito mais além dos redirecionamentos habituais e garantir que a migração do site fosse feita sem problemas. Depois, veio o HTTPS.
+
+Novas tecnologias sempre criam novos problemas que devem ser resolvidos para continuar alcançando os mesmos resultados (ou melhores).
+
+HTTP e HTTPS: sua importância para a WWW
+HTTP, ou protocolo de transferência de hipertexto, é a estrutura da rede mundial de computadores (“world wide web”, em inglês). É o protocolo usado pelo servidor para processar, renderizar e disponibilizar páginas da Web para o navegador do cliente. HTTP é o meio pelo qual a maior parte da Web é exibida.
+
+HTTP e HTTPS funcionam através do que chamamos de solicitações. Essas solicitações são criadas pelo navegador do usuário quando ele interage com algum site. Esse é um elemento importante na renderização de páginas, e, sem ele, você não estaria usando a Web como ela existe hoje.
+
+Como funciona: digamos que alguém pesquise: "como fazer a migração de um site". A solicitação é enviada para o servidor, que envia outra solicitação de volta com os resultados da consulta. Esses resultados são exibidos na SERP (página de resultados do mecanismo de pesquisa) que você vê ao concluir a pesquisa.
+
+Tudo isso acontece em milissegundos. Essa é uma visão geral de como o protocolo de transferência de hipertexto funciona.
+
+O que é HTTP? 
+HTTP é a abreviação do protocolo de transferência de hipertexto. Esse é o principal método pelo qual os dados de páginas da Web são transferidos através de uma rede. As páginas da Web são armazenadas em servidores, que depois são disponibilizadas no computador cliente à medida que o usuário as acessa.
+
+A rede resultante dessas conexões cria a rede mundial de computadores (world wide web) como a conhecemos hoje. Ou seja, sem HTTP, a world wide web (WWW) como conhecemos não existiria.
+
+Uma conexão HTTP tem um grande problema: os dados transferidos através de uma conexão desse tipo não são criptografados, então você corre o risco de invasores de terceiros roubarem as informações. Todas as informações transmitidas através desta rede via HTTP não são privadas, portanto, qualquer dado de cartão de crédito e informações confidenciais não devem ser enviados se você estiver em uma página HTTP.
+
+Como funciona o HTTPS?
+Ao contrário do HTTP, o HTTPS usa um certificado seguro de um fornecedor terceirizado para proteger uma conexão e verificar se o site é legítimo. Esse certificado seguro é conhecido como Certificado SSL.
+
+SSL é a abreviação de "secure sockets layer” (camada de soquetes segura). É isso que cria uma conexão segura e criptografada entre um navegador e um servidor, que protege a camada de comunicação entre os dois.
+
+Esse certificado criptografa uma conexão com um nível de proteção designado no momento da compra de um certificado SSL. Um certificado SSL fornece uma camada extra de segurança para dados confidenciais que você não quer que terceiros acessem. Essa segurança adicional pode ser extremamente importante quando se trata de gerenciar sites de e-commerce.
+
+Alguns exemplos:
+
+Quando você quer proteger a transmissão de dados de cartão de crédito ou outras informações confidenciais (como o endereço real e a identidade física de alguém). 
+
+Quando tem um site de geração de leads que depende das informações verdadeiras de alguém. Nesse caso, HTTPS deve ser usado para proteger contra ataques mal-intencionados aos dados do usuário.
+
+O HTTPS tem vários benefícios que valem o baixo custo. Lembre-se: se não houver o certificado, um terceiro pode verificar facilmente a conexão em busca de dados confidenciais.
+

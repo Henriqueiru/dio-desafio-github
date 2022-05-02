@@ -1,0 +1,15 @@
+Problemas de SEO na migração: passando de HTTP para HTTPS
+A mudança de HTTP para HTTPS tem vários benefícios, especialmente do ponto de vista de SEO. No entanto, a menos que você esteja familiarizado com o processo, pode causar mais danos que benefícios.
+
+É preciso informar ao Google sobre a transição. Você precisa escolher o certificado que é melhor para sua situação, configurar o Google Search Console, configurar o Google Analytics, atualizar links internos e atualizar todas as URLs relativas. Vamos analisar melhor cada um desses itens. 
+
+Informar ao Google sobre a transição e erros a evitar
+Essa etapa envolve a configuração de outro perfil do Google Search Console. Não desative o seu perfil GSC não seguro. Em vez disso, você precisa manter todos os perfis ativos. Configure um novo perfil para a versão HTTPS do seu site e garanta que ele continue coletando dados.
+
+Além disso, no Google Analytics, você deve definir seu perfil como seguro. Caso contrário, não estará rastreando os dados certos.
+
+Não se esqueça de atualizar os parâmetros de coleta de dados no Gerenciador de tags do Google, quando for o caso. Além disso, se você usar o Bing Webmaster Tools, também será necessário atualizar http://para https:// durante a migração.
+
+A frequência com que erros em transições de http:// para https:// são encontrados é surpreendente. Normalmente, eles foram causados pela falta de supervisão no desenvolvimento no processo de transição inicial e pela não atualização de perfis de rastreamento de dados importantes.
+
+Esses tipos de erros podem levar a subnotificação e supernotificação de dados, ambos os quais podem afetar drasticamente a precisão das suas decisões de estratégia de SEO.
