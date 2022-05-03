@@ -1,0 +1,40 @@
+Arquitetura
+O projeto Banckline sera desenvolvida na arquitetura Spring Framework + 
+Springboot estruturado no padrão MVC para prover uma 
+API Rest para movimentações financeiras simples.
+
+Spring Framework
+Framework open source desenvolvido para plataforma Java baseado nos padrões de projetos inversão de controle e injeção de dependencia.
+Sua estrutura é composta por módulos afins de reduzir a complexidade no desenvolvimento aplicações simples ou corporativa.
+
+Java EE também poderia ser utilizado, mas spring e ele tem a mesma proposta, a grande particularidade é que a comunidade usa mais o spring.
+
+O Spring framework é estruturado em 2 pilares
+
+Inversion os Control ou IoC, trata-se do redirecionamento do fluxo de execução de um código retirando parcialmente o controle sobre ele e delegando-o para um container. O principal proposito é minimizar o acoplamento do código.
+
+Injeção de dependencia é um padrão de desenvolvimento com a finalidade de manter baixo o nivel de acoplamento entre modulos de um sistema.
+
+Algumas terminologias:
+Beans: Objeto que é instanciado(criado), montado e gerenciado por um container através do principio da inversão de controle.
+Scopes: Controle da existencia de nossos objetos Components da aplicação em uma esfera de utilização: Singleton, Prototype, Reques, Session, Global
+Autowired: Um recurso em forma de anotação (indicação) onde deverá ocorrer uma injeção automatica de dependencia.
+
+Springboot:
+
+Enquanto que o spring Framework é baseado no padrão de injeção de dependencias, o springboot foca na configuração automatica.
+
+Starters
+
+Os starters sao dependencias que agrupam outras dependencias com um proposito em comum. Dessa forma somente uma configuração é realizada no seu gerenciador de dependencias.
+
+Alguns starters essenciais:
+
+data-jpa: Integração ao banco de dados via JPA - Hibernate
+data-mongodb: Interação com banco de dados MongoDB
+web: Inclusão do container Tomcat para aplicações REST
+web-services: Webservices baseados na arquitetura SOAP
+batch: Implementação de JOBs de processos.
+test: Disponibilização de recursos para testes unitarios como JUnit
+openfeign: Client HTTP baseado em interfaces
+actuator: Gerenciamento de monitoramento da aplicação

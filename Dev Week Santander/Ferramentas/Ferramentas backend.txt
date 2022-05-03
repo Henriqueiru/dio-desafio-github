@@ -1,0 +1,10 @@
+Java JDK: Kit de ferramentas para desenvolvimento na linguagem
+Eclipse IDE: Programa para edição, depuração compilação, testes e execução de programar Java
+Hibernate: Framework baseado no conceito de ORM para a persistencia de dados em um banco relacional.
+Spring Framework: Plataforma para desenvolvimento de aplicações Java baseado nos padrões de projeto de inversão de controle e injeção de dependencias.
+Postgres: Banco de dados relacional utilizado em projetos de grande porte
+Swagger: Ferramenta de documentação de APIs e Webservices
+Github: Repositorio e gerenciador de versionamento de codigo fonte
+Mave: Sistema para gestão de dependencia e distribuição de uma aplicação
+REST: Arquitetura para transferencia de dados representativos como JSON
+Heroku: Plataforma para hospedagem de aplicações com facil integração com Github

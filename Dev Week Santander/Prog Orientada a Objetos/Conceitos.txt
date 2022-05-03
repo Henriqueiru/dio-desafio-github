@@ -1,0 +1,5 @@
+Instanciar(new): É o ato de criar um objeto a partir de estrutura definida em uma classe
+Comportamento(behavior): Também conhecido como ações ou métodos, é toda parte comportamental que um objeto dispoe.
+Caracteristicas(states): Também conhecido como atributos ou propriedades, é toda informação que representa o estado do objeto.
+Identificador(Identity): Propósito existencial aos objetos que serão criados.
+Classe(class): A estrutura e ou representação que direciona a criação dos objetos de mesmo tipo.
