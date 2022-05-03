@@ -1,0 +1,2 @@
+SDK Manager: Possibilita o gerenciamento de pacotes por meio de ferramentas, APIs e outros componentes;
+AVD Manager: Provê multiplas possibilidades de emulação através de dispositivos virtuais.
