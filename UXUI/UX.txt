@@ -1,1 +1,5 @@
 UX é o processo de pesquisar, desenvolver e refinar todos os aspectos da interação de um usuario com uma empresa/produto para garantir que a empresa ou produto atenda às necessidades do usuario
+Para que isso aconteça ele tem que fazer alguns papéis como:
+
+Estratégia, pesquisa, conteúdo, wireframe, protótipo, análise, validação, testes.
+Ou seja o profissional de UX é parte marketing, parte designer, parte gerente de projeto; O papel do UX Designer é complexo e desafiador.

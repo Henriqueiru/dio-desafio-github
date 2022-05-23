@@ -1,0 +1,8 @@
+Um designer de interface UI é reponsavel por toda parte visual, como tudo em uma página se alinha, os elementos visuais que voce vê em uma página, botões e ícones, e a interatividade de um produto.
+Interatividade se resume a animações efeitos e etc.
+
+Esse designer de interface também precisa empenhar habilidades especificas como:
+Pesquisa de design, branding, visual guidelines, telas responsivas, protótipo, implementação
+
+Ou seja, o profissional traz o visuaol como meio de comunicar o produto. Focado em detalhes para agradar os olhos do usuario.
+
