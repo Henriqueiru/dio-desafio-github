@@ -1,0 +1,11 @@
+UX Lida com pesquisa com usuarios, insights, teste, validação, arquitetura da informação, processos de design.
+
+UI Detalhes visuais, posicionamento, estilos de fontes e cores, styleguide, pixel-perfect.
+Pixel perfect é um profissional que se dedica ao maximo aos minimos detalhes.
+
+O produto visual sem ter sido interegido é UI
+
+Quando voce coloca o usuario e cria uma interação ai vem o UX, experiencia do usuario
+
+Essas habilidades andam juntas.
+
