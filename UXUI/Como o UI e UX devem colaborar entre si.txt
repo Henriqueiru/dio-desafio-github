@@ -1,0 +1,15 @@
+Esses precisam colaborar do inicio ao fim do projeto, pode acontecer de ser um time ou uma pessoa híbrida com as duas habilidades, isso depende da empresa e do tamanho do time.
+
+Em equipe:
+UX Designer:
+Responsavel por:
+Pesquisa, levantamento de dados e insights, wireframes pra validar idéias.
+
+UI Designer:
+Responsavel por: Transformar a informação do UX e os dados encontrados em uma apresentação visual e o produto em si.
+
+O UX Faz information architect, user research, data analysis, site mapping, natural flow, sketching.
+O UI Faz Typefaces, Layout, Visual design, User controls, Content, color, input/output devides, action buttos.
+
+Os dois geralmente participam de coisas em comum como:
+ wireframes, prototyping, user testing
