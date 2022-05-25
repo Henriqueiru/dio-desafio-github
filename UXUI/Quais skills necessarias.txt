@@ -11,3 +11,17 @@ Soft Skills
 
 São habilidades comportamentais, inerentes a voce, ou interpessoais.
 Empatia, etiqueta pessoal, curiosidade, comunicação, colaboração, vontade de aprender, humildade em entender seus erros, produtividade
+
+Dica: Recomando fortemente que voce faça uma mentoria profissional, ou psicologica. Esses profissionais vao ajudar a manter o foco e o desenvolvimento profissional
+
+Vamos comparar skills entre UX e UI
+
+User Interface Designer
+
+Ele precisa saber de varias ferramentas que entregam um design visual, como figma, adoba xd, framer, protopie, sketch, zeplin, stage e gallery e por ai vai
+Soft skills de UI
+Pensamento criativo, comunicação, organização, produtividade alta, curva de aprendizado reduzida, colaboração e entre outras
+
+Sobre o UX
+Hard skills
+usabilla, usertesting, hotjar, notion, maze, survey monkey, lookback, fullstory
