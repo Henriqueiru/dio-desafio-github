@@ -1,0 +1,10 @@
+Usabilidade substituiu rotulo "user friendly" no inicio dos anos 90
+A usabilidade permite que pessoas alcancem facilmente seus objetivos.
+
+Mas nem tudo é positivo, cuidado para nao criar aplicativo sem usabilidade.
+
+Heurísticas:
+
+Termo usado para principios gerais do design de interação, sao chamados de heuristicas porque são regras gerais
+
+Essas 10 heuristicas foram criadas pelo pai da usabilidade, Jakob Nielsen.
