@@ -10,7 +10,7 @@ Acumula muita tarefa
 Preciso entender, Standups, Sprint planning, Sprint reviews, Retrospectives, Flashback fridays, Back log.
 
 Standup/Ficar em pé:
-O Time todo comenta sobre, como foi o dia anterior, quais foram as dificuldades e quais as conquiestas, e sobre o dia que esta por vir, o que você vai fazer hoje.
+O Time todo comenta sobre, como foi o dia anterior, quais foram as dificuldades e quais as conquistas, e sobre o dia que esta por vir, o que você vai fazer hoje.
 
 O time começa a trabalhar em conjunto, entender o que cada um faz e quais tarefas serão entregues
 
