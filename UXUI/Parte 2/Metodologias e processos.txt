@@ -1,0 +1,40 @@
+Metodologia de trabalho
+Diversos tipos de processos e fases existem hoje em dia. Vamos falar de alguns e como funcionam.
+
+Waterfall/Cascata é o primeiro processo
+Consiste em: Analyisis, Design, Implementation, Testing, Maintenance
+
+Reduz a velocidade pois os recursos sao bloqueados antes do inicio do trabalho
+Acumula muita tarefa
+
+Preciso entender, Standups, Sprint planning, Sprint reviews, Retrospectives, Flashback fridays, Back log.
+
+Standup/Ficar em pé:
+O Time todo comenta sobre, como foi o dia anterior, quais foram as dificuldades e quais as conquiestas, e sobre o dia que esta por vir, o que você vai fazer hoje.
+
+O time começa a trabalhar em conjunto, entender o que cada um faz e quais tarefas serão entregues
+
+
+Sprint review ou checkin:
+check in é sempre na primeira sexta do sprint, e o review é sempre na ultima sexta do sprint.
+
+Na sexta o time se junta para checar qual o status dos trabalhos, algum aprendizado para compartilhar, quais os insights adquiridos, quais foram os desafios do sprint e quais os tickets foram entregues
+Não se espante se ao final do review voce nao tiver um ticket 100%, esses tickets entraram em blocked e irão para o back log para que entrem para o proximo sprint e voce consiga terminar eles.
+
+Retrospective:
+A reuniao acontece No final das 2 semanas do sprint, seu time se reune para fazer um exercício que é quase uma consulta psicológica. A função desse meeting é que o sprint, o que foi ruim, o que foi bom, e quais ações devemos tomar.
+
+Flashback friday:
+É um exercicio que alinha o time e a empresa também, ele serve para que toda empresa se alinhe no proximo lançamento e nos atuais sprints. Noticias em geral da empresa, e um rapido update dos times.
+
+Backlog:
+Pasta de backup que vamos gastar requerimentos que ainda não estão na sprint.
+Aqui é onde os novos produtos, funcionalidades, idéias e etc são armazenados. E é função do project manager ou do scrum master, organizar quando esses tickets vão entrar no sprint para serem resolvidos.
+Ele sempre cresce.
+
+Processos de design:
+Abordam problemas de design utilizando de processos definidos.
+Passos e estagios para solucionar esses problemas.
+
+Double Diamond:
+Dividido em 4 fases, descobrir, definir, desenvolver e entregar.
