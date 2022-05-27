@@ -22,7 +22,7 @@ Na sexta o time se junta para checar qual o status dos trabalhos, algum aprendiz
 Não se espante se ao final do review voce nao tiver um ticket 100%, esses tickets entraram em blocked e irão para o back log para que entrem para o proximo sprint e voce consiga terminar eles.
 
 Retrospective:
-A reuniao acontece No final das 2 semanas do sprint, seu time se reune para fazer um exercício que é quase uma consulta psicológica. A função desse meeting é que o sprint, o que foi ruim, o que foi bom, e quais ações devemos tomar.
+A reuniao acontece No final das 2 semanas do sprint, seu time se reune para fazer um exercício que é quase uma consulta psicológica. A função desse meeting é falar sobre o sprint, o que foi ruim, o que foi bom, e quais ações devemos tomar para resolver isso.
 
 Flashback friday:
 É um exercicio que alinha o time e a empresa também, ele serve para que toda empresa se alinhe no proximo lançamento e nos atuais sprints. Noticias em geral da empresa, e um rapido update dos times.
