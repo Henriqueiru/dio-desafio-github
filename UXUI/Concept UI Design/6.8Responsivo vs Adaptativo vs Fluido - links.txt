@@ -1,0 +1,5 @@
+https://getbootstrap.com/
+https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
+https://www.invisionapp.com/inside-design/examples-responsive-web-design/
+http://grid.guide/
+https://search.google.com/test/mobile-friendly
